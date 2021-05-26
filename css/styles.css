@@ -1,0 +1,28 @@
+/* layout */
+.bg-1 {
+  background-color: #3375cb; /* Green */
+  color: #ffffff;
+  padding-top: -4px;
+}
+.bg-2 {
+  background-color: #474e5d; /* Dark Blue */
+  color: #ffffff;
+}
+.bg-3 {
+  background-color: #ffffff; /* White */
+  color: #555555;
+}
+.bg-4 { 
+  background-color: #2f2f2f; /* Black Gray */
+  color: #fff;
+}
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+/* media */
+.img-circle {
+  width: 300px;
+  border: 1px solid black;
+}
