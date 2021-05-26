@@ -2,7 +2,6 @@
 .bg-1 {
   background-color: #3375cb; /* Green */
   color: #ffffff;
-  padding-top: -4px;
 }
 .bg-2 {
   background-color: #474e5d; /* Dark Blue */
@@ -16,13 +15,26 @@
   background-color: #2f2f2f; /* Black Gray */
   color: #fff;
 }
+.bg-2::before {
+  background-image: url(https://images.pexels.com/photos/4566719/pexels-photo-4566719.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: cover;
+  opacity: 0.20;
+}
 .container-fluid {
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+.row {
+  margin-top: 3em;
 }
 
 /* media */
 .img-circle {
   width: 300px;
   border: 1px solid black;
+  background-color: black;
+}
+
+img {
+  border: 1px solid white;
 }
