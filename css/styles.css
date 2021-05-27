@@ -33,6 +33,7 @@ body#main, body {
   height: 100%;
   background-color: black;
 }
+
 /* text */
 p {
   margin: 2em 7em;
@@ -47,7 +48,10 @@ p.card {
 }
 h1 {
   text-shadow: 2px 3px 10px #3a66c6;
-  color:rgb(218, 240, 255)
+  color:rgb(218, 240, 255);
+  font-family: cursive;
+  font-size: 50px;
+  padding-bottom: .3em;
 }
 h1#mainHeader {
   margin-bottom: 1em;
@@ -85,6 +89,9 @@ input[type=submit]:hover {
 .container {
   border-radius: 5px;
   background-color: #f2f2f2;
+}
+nav#myNavbar li a:hover {
+  background-color: grey;
 }
 
 
